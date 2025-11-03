@@ -130,3 +130,4 @@ class Pipeline():
             out_img = out_img.to('cpu', torch.uint8).numpy()
 
             return out_img[0]
+
